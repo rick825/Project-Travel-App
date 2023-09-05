@@ -34,7 +34,7 @@
     position: fixed;
     top:3%;
     right: 2%;
-    z-index: 1000000;
+    z-index: 10000000;
    }
 
    .navbar img{
