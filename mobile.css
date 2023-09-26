@@ -1,5 +1,10 @@
 @media  only screen and (max-width: 720px) {
-    
+   
+
+
+   body{
+      overflow-x: hidden;
+   }
 
     /* nav section */
    .backblack{
@@ -79,7 +84,7 @@
 /* common section */
 .msec{
     width: 100%;
-    height: 50rem;
+    height: 60rem;
 }
 /* end common section */
 
@@ -114,6 +119,7 @@
 
  .mainhead{
     font-size: 4rem;
+    line-height: 7.5rem;
     border-bottom: 2px solid white;
  }
  .mainl{
@@ -173,5 +179,74 @@
     padding: 0.2rem  1.9rem;
 }
  /* end main section */
+
+ /* offer section*/
+ .or{
+   flex-direction: column;
+   align-items: center;
+   height: 80rem;
+   margin-top: 2rem;
+ }
+
+ .oimg{
+   
+ }
+
+ .otext{
+   height: 66%;
+ }
+
+ .o1{
+   flex-direction: column-reverse;
+ }
+
+ .o2{
+   /* flex-direction: column-reverse; */
+ }
+
+ .otext1{
+   margin-left: 2rem;
+ }
+
+ .oimg2{
+   margin-left: 0rem;
+ }
+ /* end offer section */
+
+
+/* best places */
+.best-places{
+
+}
+
+.bp-bot{
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+/* end best places */
+
+/* contact */
+.contact-cont{
+   flex-direction: column;
+   margin-top: 0;
+}
+
+.contact-sec{
+   margin: 2rem;
+}
+
+.contact-form{
+   width: 100%;
+}
+
+.contact-item{
+   width: 80%;
+   margin-top: 0rem;
+   margin-left: 4rem;
+}
+/* end contact */
 
 }
