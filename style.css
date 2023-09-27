@@ -474,8 +474,13 @@ body{
     min-height: 65rem;
     margin-top: 1rem;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    overflow-x: scroll;
 }
+
+.bp-bot::-webkit-scrollbar {
+    display: none;
+  }
 
   /* Styles for the travel card container */
   .travel-card {
