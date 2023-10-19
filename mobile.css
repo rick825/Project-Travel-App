@@ -249,4 +249,12 @@
 }
 /* end contact */
 
+/* place carousel */
+.car li, .car img {
+   width: 350px;
+   height: 350px;
+   filter: grayscale(0);
+}
+/* end place carousel */
+
 }

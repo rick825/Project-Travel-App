@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel With Us</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="learnmore.css">
     <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
@@ -177,40 +178,154 @@
             <img src="./img/place1.jpg" alt="Destination 1">
             <h2>Burj Khalifa</h2>
             <p>Explore the Giant Burj Khalifa of Dubai with our exclusive travel package.</p>
-            <button>Learn More</button>
+            <button onclick="showburj()">Learn More</button>
         </div>
     
         <div class="travel-card">
             <img src="./img/place2.jpg" alt="Destination 2">
             <h2>Burj Al Arab</h2>
             <p>Experience the vibrant culture of Dubai with our guided tours.</p>
-            <button>Learn More</button>
+            <button onclick="showarab()">Learn More</button>
         </div>
 
         <div class="travel-card">
           <img src="./img/place3.jpg" alt="Destination 2">
           <h2>Museum of the future (Dubai Museum)</h2>
           <p>Explore the DUbai Museam of Dubai with our exclusive travel package.</p>
-          <button>Learn More</button>
+          <button onclick="showmus()">Learn More</button>
       </div>
 
       <div class="travel-card">
         <img src="./img/place4.jpg" alt="Destination 2">
         <h2>Dubai Miracle Garden</h2>
         <p>Experience the vibrant Garden of Dubai with our guided tours.</p>
-        <button>Learn More</button>
+        <button onclick="showgard()">Learn More</button>
     </div>
 
     <div class="travel-card">
       <img src="./img/place5.jpg" alt="Destination 2">
       <h2>Palm Jumeirah</h2>
       <p>Explore Palm Jumeirah of Dubai with our guided tours.</p>
-      <button>Learn More</button>
+      <button onclick="showpalm()">Learn More</button>
   </div>
         </div>
       </div>
     </section>
     <!-- end best places -->
+
+    <!-- best place carousel -->
+    <section id="carousel">
+      <div class="carousel">
+        <div class="carbackblack">
+        </div>
+         <!-- car1 -->
+          <div class="maintemp mkhalifa">
+            <h2>Burj Khalifa</h2>
+            <button class="close" type="button" onclick="closemodel()">X</button>
+            <section class="carousel-burj car">
+              <div class="scroll-arrow scroll-left" id="scroll-left">
+                  &#8592;
+                </div>
+                <ul class="imgList">
+                  <li><img src="img/place-carousel/burj/burj5.jpg"/></li>
+                  <li><img src="img/place-carousel/burj/burj2.jpg"/></li>
+                  <li><img src="img/place-carousel/burj/burj3.jpg"/></li>
+                  <li><img src="img/place-carousel/burj/burj4.jpg"/></li>
+                  <li><img src="img/place-carousel/burj/burj1.jpg"/></li>
+                </ul>
+                <div class="scroll-arrow scroll-right" id="scroll-right" onclick="scrollRight()">
+                  &#8594;
+                </div>
+              </section>
+          </div>
+          <!-- end car -->
+          <!-- car2 -->
+          <div class="maintemp malarab">
+            <h2>Burj Al Arab</h2>
+            <button class="close" type="button" onclick="closemodel()">X</button>
+            <section class="carousel-burj car">
+              <div class="scroll-arrow scroll-left" id="scroll-left">
+                  &#8592;
+                </div>
+                <ul class="imgList">
+                  <li><img src="img/place-carousel/arab/arab1.jpg"/></li>
+                  <li><img src="img/place-carousel/arab/arab2.jpg"/></li>
+                  <li><img src="img/place-carousel/arab/arab3.jpg"/></li>
+                  <li><img src="img/place-carousel/arab/arab4.jpg"/></li>
+                  <li><img src="img/place-carousel/arab/arab5.jpg"/></li>
+                </ul>
+                <div class="scroll-arrow scroll-right" id="scroll-right" onclick="scrollRight()">
+                  &#8594;
+                </div>
+              </section>
+          </div>
+          <!-- end car -->
+           <!-- car3 -->
+           <div class="maintemp mmus">
+            <h2>Museum of the future (Dubai Museum)</h2>
+            <button class="close" type="button" onclick="closemodel()">X</button>
+            <section class="carousel-burj car">
+              <div class="scroll-arrow scroll-left" id="scroll-left">
+                  &#8592;
+                </div>
+                <ul class="imgList">
+                  <li><img src="img/place-carousel/mus/mus1.jpg"/></li>
+                  <li><img src="img/place-carousel/mus/mus2.jpg"/></li>
+                  <li><img src="img/place-carousel/mus/mus3.jpg"/></li>
+                  <li><img src="img/place-carousel/mus/mus4.jpg"/></li>
+                  <li><img src="img/place-carousel/mus/mus5.jpg"/></li>
+                </ul>
+                <div class="scroll-arrow scroll-right" id="scroll-right" onclick="scrollRight()">
+                  &#8594;
+                </div>
+              </section>
+          </div>
+          <!-- end car -->
+           <!-- car4 -->
+           <div class="maintemp mmir">
+            <h2>Dubai Miracle Garden</h2>
+            <button class="close" type="button" onclick="closemodel()">X</button>
+            <section class="carousel-burj car">
+              <div class="scroll-arrow scroll-left" id="scroll-left">
+                  &#8592;
+                </div>
+                <ul class="imgList">
+                  <li><img src="img/place-carousel/garden/gard1.jpg"/></li>
+                  <li><img src="img/place-carousel/garden/gard2.jpg"/></li>
+                  <li><img src="img/place-carousel/garden/gard3.jpg"/></li>
+                  <li><img src="img/place-carousel/garden/gard4.jpg"/></li>
+                  <li><img src="img/place-carousel/garden/gard5.jpg"/></li>
+                </ul>
+                <div class="scroll-arrow scroll-right" id="scroll-right" onclick="scrollRight()">
+                  &#8594;
+                </div>
+              </section>
+          </div>
+          <!-- end car -->
+           <!-- car5 -->
+           <div class="maintemp mpalm">
+            <h2>Palm Jumeirah</h2>
+            <button class="close" type="button" onclick="closemodel()">X</button>
+            <section class="carousel-burj car">
+              <div class="scroll-arrow scroll-left" id="scroll-left">
+                  &#8592;
+                </div>
+                <ul class="imgList">
+                  <li><img src="img/place-carousel/palm/palm.jpg"/></li>
+                  <li><img src="img/place-carousel/palm/palm2.jpg"/></li>
+                  <li><img src="img/place-carousel/palm/palm3.jpg"/></li>
+                  <li><img src="img/place-carousel/palm/palm4.jpg"/></li>
+                  <li><img src="img/place-carousel/palm/palm5.jpg"/></li>
+                </ul>
+                <div class="scroll-arrow scroll-right" id="scroll-right" onclick="scrollRight()">
+                  &#8594;
+                </div>
+              </section>
+          </div>
+          <!-- end car -->
+      </div>
+    </section>
+    <!-- end best place carousel -->
 
     <!-- one minute   -->
     <section id="one-gallery">
@@ -344,6 +459,7 @@
 
 
     <script src="app.js"></script>
+    <script src="slide.js"></script>
     <script>
    
    let currentSlide = 0;
@@ -378,6 +494,22 @@
         // Show the initial slide
         showSlide(currentSlide);
   </script>
+  <script>
+      var imgList = document.getElementById('imgList');
+var scrollRight = document.getElementById('scroll-right');
+var scrollLeft = document.getElementById('scroll-left');
+
+// When a user clicks on the right arrow, the ul will scroll 750px to the right
+scrollRight.addEventListener('click', (event) => {
+  imgList.scrollBy(750, 0);
+});
+
+// When a user clicks on the left arrow, the ul will scroll 750px to the left
+scrollLeft.addEventListener('click', (event) => {
+  imgList.scrollBy(-750, 0);
+});
+  </script>
+    
 
 </body>
 </html>
